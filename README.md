@@ -69,7 +69,7 @@ Modules will start to show up in the order listed here. The <b>time delay</b> be
 ```
 var interval = 3000; // delay (in milliseconds)
 ```
-By default, the points gained and the penalty points for each module is defined in the `index.html` file. For example:
+By default, the <b>points gained and the penalty points</b> for each module is defined in the `index.html` file. For example:
 ```
 <p id="needyPt" class="d-none">0</p>
 <p id="needyPn" class="d-none">15</p>
@@ -83,7 +83,7 @@ document.getElementById("ned2Penalty").innerHTML = "0 points"; -- Change the poi
 ```
 When changing the points gained or the penalty points in config.js, ensure that the display values are also updated so that the player knows the rules for that mode.
 <br>  
-The rules displayed for each round is specified in the `index.html` file. For example:<br>
+The <b>game rules</b> displayed on the login screen for each round is specified in the `index.html` file. For example:<br>
 ```
 <p id="rulesSP" ...>
 ```
