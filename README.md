@@ -84,7 +84,7 @@ document.getElementById("ned2Points").innerHTML = "+20";       -- Change the poi
 document.getElementById("ned2Penalty").innerHTML = "0 points"; -- Change the points displayed on browser
 ```
 When changing the points gained or the penalty points in config.js, ensure that the display values are also updated so that the player knows the rules for that mode.
-<br>
+<br>  
 The rules displayed for each round is specified in the `index.html` file. For example:<br>
 <p id="rulesSP" ...>
 
