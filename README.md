@@ -9,7 +9,9 @@ The steps for starting this game are:
 2) Launch VisualStudio Code and open the project from the main menu File > Open Folder
 3) Compile the code by doing Ctrl+Shift+B and then choose "haxe: active configuration"
 4) Fix the compiled code to use the right webgl ID. Go to bin directory and find this line in the JS files: 
+```
 canvas = window.document.getElementById("webgl");
+```
 Replace "webgl" with the right values as given below:
 ```
 compwires.js -- "webgl4"
@@ -104,5 +106,21 @@ To change the logo displayed on the login screen, edit this URL in the `config.j
 ```
 var clientLogo = "https://lsb.edu.in/wp-content/uploads/2019/03/cropped-Legacy-Logo-2013-14.png";
 ```
-
+## Changing the DB
+As the game is played, the messages are sent to the database. To change the location of the DB, change the `Send()` function in the `Log.hx` file:
+```
+JQuery.ajax({
+            type: "POST",
+            url: "https://<db url>/ktne-base",
+            contentType: "application/json",
+```
+To add additional data to be sent to the DB, create hidden fields in index.html like below and set the value in that field.
+```
+<input type="hidden" id="player" value="">
+```
+The Send() method can then access this field like:
+```
+var playerName = Browser.document.getElementById("player").getAttribute("value");
+```
+This value can be included in the JSON sent to the DB.
 
