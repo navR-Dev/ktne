@@ -69,7 +69,6 @@ Modules will start to show up in the order listed here. The <b>time delay</b> be
 ```
 var interval = 3000; // delay (in milliseconds)
 ```
-<br>
 By default, the points gained and the penalty points for each module is defined in the `index.html` file. For example:
 ```
 <p id="needyPt" class="d-none">0</p>
