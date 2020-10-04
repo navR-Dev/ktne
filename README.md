@@ -37,6 +37,9 @@ wrsr.js -- "webgl5"
 5) Launch the game in the browser by clicking F5 and choose "Launch index.html"
 6) Login with any team name and password listed in the users.js file. For example, "XTNT" and password "361988"
 
+## Publishing the Game
+The game can be published to surge. Follow the instructions at https://surge.sh/help/getting-started-with-surge. Once it is published, you can access the game using the URL it auto created, like https://ambiguous-slope.surge.sh/
+
 ## Playing the Game
 There are two types of modules:
 - Needy modules: They need to be solved before the time runs out. If you fail to solve them, then points will be deducted. However they do not add to the score when you solve them. Make sure you solve them on time to avoid loss of points.
