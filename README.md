@@ -57,12 +57,10 @@ To set the <b>game time</b> for that round:
 gameTime = 5; -- 5 minutes
 gameTimeDisplay = "00:05:00"; -- change this accordingly
 ```
-Time in seconds when the module must be <b>respawned</b>:
-```
-respawnTime = 5;
-```
-<br/>
 <b>List of modules</b> to be enabled for that round:
+```
+moduleList = ["ned2Div", "ned3Div", "ned4Div", "ned5Div"];
+```
 Modules will start to show up in the order listed here. The <b>time delay</b> between the modules is 3 seconds. This can be changed in the `users.js` file.
 ```
 var interval = 3000; // delay (in milliseconds)
