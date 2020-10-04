@@ -11,6 +11,7 @@ The steps for starting this game are:
 4) Fix the compiled code to use the right webgl ID. Go to bin directory and find this line in the JS files: 
 canvas = window.document.getElementById("webgl");
 Replace "webgl" with the right values as given below:
+```
 compwires.js -- "webgl4"
 maze.js -- "webgl3"
 mem2.js -- "webgl10"
@@ -30,6 +31,7 @@ wrs2.js -- "webgl6"
 wrs3.js -- "webgl14"
 wrs4.js -- "webgl15"
 wrsr.js -- "webgl5"
+```
 5) Launch the game in the browser by clicking F5 and choose "Launch index.html"
 6) Login with any team name and password listed in the users.js file. For example, "XTNT" and password "361988"
 
@@ -55,7 +57,6 @@ To set the <b>game time</b> for that round:
 gameTime = 5; -- 5 minutes
 gameTimeDisplay = "00:05:00"; -- change this accordingly
 ```
-<br>
 Time in seconds when the module must be <b>respawned</b>:
 ```
 respawnTime = 5;
