@@ -64,7 +64,7 @@ respawnTime = 5;
 <br>
 <b>List of modules</b> to be enabled for that round:
 ```
-moduleList = ['ned2Div', 'ned3Div', 'ned4Div', 'ned5Div'];
+moduleList = ["ned2Div", "ned3Div", "ned4Div", "ned5Div"];
 ```
 Modules will start to show up in the order listed here. The <b>time delay</b> between the modules is 3 seconds. This can be changed in the `users.js` file.
 ```
