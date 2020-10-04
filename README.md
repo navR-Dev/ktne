@@ -57,6 +57,10 @@ To set the <b>game time</b> for that round:
 gameTime = 5; -- 5 minutes
 gameTimeDisplay = "00:05:00"; -- change this accordingly
 ```
+Time in seconds when the module must be <b>respawned</b>:
+```
+respawnTime = 5;
+```
 <b>List of modules</b> to be enabled for that round:
 ```
 moduleList = ["ned2Div", "ned3Div", "ned4Div", "ned5Div"];
